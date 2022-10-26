@@ -1,0 +1,36 @@
+int count;
+
+ 
+int max = 0;
+
+ 
+
+
+
+int sum = 0;
+
+ 
+
+decimal average = 0;
+
+
+
+
+#process and output
+
+ 
+
+for (count = 0; count < max; count += 5)
+
+ 
+
+{
+sum += count;  
+}
+
+ 
+average = sum / count;
+
+ 
+
+print("The Average is " + average + " .");
